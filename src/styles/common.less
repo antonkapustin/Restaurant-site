@@ -1,0 +1,33 @@
+html {
+    height: 100%;
+    display: flex;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    background-image: url("../../assets/restaurant\ 1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 22vh 4vw 32.7vh 4vw;
+
+    @media @max1024 {
+        padding: 16vh 4vw 21.7vh 4vw;
+    }
+    @media @max768 {
+        padding: 3vh 4vw 15.7vh 4vw;
+    }
+}
+
+@media @max1024 {
+    .is_hidden_tabs {
+        display: none;
+    }
+}
+@media @max768 {
+    .is_hidden_mobile{
+        display: none;
+    }
+}

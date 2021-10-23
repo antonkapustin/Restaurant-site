@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet/less" type="css" href="styles.less">
+        <title>Restaurant</title>
+        <script src="libs/less@4.1.1.js"></script>
+    </head>
+    <body>
+        <div class="dropdown">
+            <div class="dropdown__menu">
+                <input type="checkbox" class="dropdown__checkbox" id="menu">
+                    <ul class="dropdown__list">
+                        <li class="dropdown__item"><label for="menu" class="dropdown__toggler"><span class="dropdown__icon"></span></label></li>
+                        <li class="dropdown__item"><a href="/about" class="dropdown__link">About</a></li>
+                        <li class="dropdown__item"><a href="/menu" class="dropdown__link">Menu</a></li>
+                    </ul>
+                <label for="menu" class="dropdown__toggler">
+                    <span class="dropdown__devider"></span>
+                    <span class="dropdown__devider"></span>
+                </label>
+            </div>
+        </div>
+        <div class="main">
+            <button class="slider-button is_hidden_tabs is_hidden_mobile"><span class="icon icon_left"><img src="icon/hardware/keyboard_arrow_left_24px.png" alt="arrow left"></span></button>
+            <div class="discription">
+                <h1 class="discription__title">Welcome to <span class="discription__title discription__title_bold">Sushi</span> Restaurant</h1>
+                <p class="discription__subtitle is_hidden_mobile">People eat with their eyes and Sushi creates an easy way for customers to order when they can see beautiful photos of your food</p>
+                <div class="menu">
+                    <button class="button is_hidden_mobile" type="button">About</button>
+                    <button class="button is_hidden_mobile" type="button">Menu</button>
+                </div>
+            </div>
+            <button class="slider-button is_hidden_tabs is_hidden_mobile"><span class="icon icon_right"><img src="icon/hardware/keyboard_arrow_right_24px.png" alt="arrow right"></span></button>
+
+        </div>
+
+    </body>
+</html>
