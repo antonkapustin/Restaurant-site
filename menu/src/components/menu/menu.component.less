@@ -1,0 +1,24 @@
+.menu{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap: 43px;
+    grid-column-gap: 80px;
+
+    &__item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__title{
+        font-family: 'Mulish', sans-serif;
+        font-size: 25px;
+        margin: 0;
+        line-height: 25px;
+    }
+    &__img{
+        width: 260px;
+        height: 320px;
+        margin-bottom: 13px;
+    }
+}
