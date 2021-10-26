@@ -6,8 +6,14 @@ body{
     width: 100%;
     margin: 0;
     box-sizing: border-box;
-    //background-image: url("../../assets/MENU\ \(1\).png");
-    background-repeat: no-repeat;
-    background-size: cover;
     padding: 15px 119px 10px 283px;
+
+    @media @max1024{
+        padding: 0;
+    }
+}
+@media @max1024 {
+    .is_hidden_mobile{
+        display: none;
+    }
 }
