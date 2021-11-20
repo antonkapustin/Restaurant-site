@@ -16,18 +16,16 @@ body {
     @media @max1024 {
         padding: 16vh 4vw 21.7vh 4vw;
     }
-    @media @max768 {
-        padding: 3vh 4vw 15.7vh 4vw;
+}
+
+@media @min1024 {
+    .is_hidden_desktop {
+        display: none;
     }
 }
 
 @media @max1024 {
-    .is_hidden_tabs {
-        display: none;
-    }
-}
-@media @max768 {
-    .is_hidden_mobile{
+    .is_hidden_mobile {
         display: none;
     }
 }
