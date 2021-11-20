@@ -10,24 +10,16 @@
     }
     &__slider{
         display: flex;
-        scroll-snap-align: start;
-        overflow: auto;
-        scroll-behavior: smooth;
-        flex-shrink: 0;
-        width: 100%;
+        .slider();
         scroll-snap-type: x mandatory;
     }
     &__button{
         padding: 15px 75px;
-        backdrop-filter: blur(100px);
-        background-color: rgba(255, 255, 255, 0.5);
+        .background();
         margin: 0.5em;
         border-radius: 50px;
-        scroll-snap-align: start;
-        transform-origin: center center;
-        transform: scale(1);
-        transition: transform 0.5s;
         text-align: center;
         border: none;
+        .slider__item();
     }
 }

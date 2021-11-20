@@ -1,3 +1,24 @@
 @max1024: (max-width: 1024px);
 @min1024: (min-width: 1024px);
 @max768: (max-width: 760px);
+
+.slider {
+    scroll-snap-align: start;
+    overflow: auto;
+    scroll-behavior: smooth;
+    flex-shrink: 0;
+    width: 100%;
+}
+.slider__item{
+    flex-shrink: 0;
+    text-align: center;
+    scroll-snap-align: start;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+}
+
+.background{
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(100px);
+}
